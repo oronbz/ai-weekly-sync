@@ -433,6 +433,13 @@ body {
   margin-bottom: var(--space-md);
 }
 
+.markdown-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  margin: var(--space-sm) 0;
+}
+
 /* Task list checkbox styling */
 .markdown-content input[type="checkbox"] {
   appearance: none;
