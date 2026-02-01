@@ -131,7 +131,7 @@ body {
 .app-main {
   flex: 1;
   padding: var(--space-xl);
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   width: 100%;
 }
@@ -298,7 +298,7 @@ body {
 
 /* View Sync Page */
 .sync-view {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -386,7 +386,7 @@ body {
 }
 
 .markdown-content li::marker {
-  color: var(--accent);
+  color: var(--text-secondary);
 }
 
 .markdown-content a {
