@@ -1,5 +1,5 @@
 import express from 'express';
-import { readdir, readFile, writeFile, mkdir } from 'fs/promises';
+import { readdir, readFile, writeFile, mkdir, unlink } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { existsSync } from 'fs';
@@ -200,6 +200,26 @@ app.put('/api/syncs/:id', async (req, res) => {
     } catch (error) {
         console.error('Error updating sync:', error);
         res.status(500).json({ error: 'Failed to update sync' });
+    }
+});
+
+// DELETE /api/syncs/:id - Delete sync
+app.delete('/api/syncs/:id', async (req, res) => {
+    try {
+        const id = parseInt(req.params.id, 10);
+        const filename = `sync-${String(id).padStart(3, '0')}.md`;
+        const filepath = join(SYNCS_DIR, filename);
+
+        if (!existsSync(filepath)) {
+            return res.status(404).json({ error: 'Sync not found' });
+        }
+
+        await unlink(filepath);
+
+        res.json({ success: true, id, message: `Sync #${id} deleted` });
+    } catch (error) {
+        console.error('Error deleting sync:', error);
+        res.status(500).json({ error: 'Failed to delete sync' });
     }
 });
 

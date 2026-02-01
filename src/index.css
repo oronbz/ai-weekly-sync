@@ -19,8 +19,9 @@
   --danger: #f85149;
 
   /* Typography */
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  --font-sans:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", Consolas, monospace;
 
   /* Spacing */
   --space-xs: 0.25rem;
@@ -149,6 +150,20 @@ body {
 .btn-ghost:hover {
   color: var(--text-primary);
   background: var(--bg-tertiary);
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: #da3633;
+}
+
+.btn-danger:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 
 /* Cards Grid */
@@ -409,7 +424,7 @@ body {
 }
 
 .markdown-content input[type="checkbox"]:checked::after {
-  content: '✓';
+  content: "✓";
   color: #fff;
   font-size: 12px;
   position: absolute;

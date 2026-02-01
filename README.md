@@ -24,6 +24,7 @@ npm run dev
 ```
 
 This runs both:
+
 - **Frontend**: http://localhost:5173 (Vite)
 - **API Server**: http://localhost:3001 (Express)
 
@@ -66,7 +67,7 @@ Edit `syncs/TEMPLATE.md` to customize the structure for new syncs. Available pla
 # Run frontend only
 npm run client
 
-# Run API only  
+# Run API only
 npm run server
 
 # Run both (default)

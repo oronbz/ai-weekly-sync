@@ -1,7 +1,7 @@
-import { Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home'
-import ViewSync from './pages/ViewSync'
-import Editor from './pages/Editor'
+import { Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import ViewSync from "./pages/ViewSync";
+import Editor from "./pages/Editor";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         </Routes>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
