@@ -10,10 +10,9 @@
 - [Moltbook](https://www.moltbook.com/)
   - Starting [religions](https://molt.church/)
   - Publishing [manifestos](https://www.moltbook.com/post/34809c74-eed2-48d0-b371-e1b5b940d409) about humanity
-  - Driving memecoin $MOLT up 7,000%+
-  - Creating bizarre, philosophical, and sometimes disturbing content
-  - [Example 1](https://pbs.twimg.com/media/G_6xu4naMAABtEh?format=jpg&name=900x900)
-  - [Example 2](https://substackcdn.com/image/fetch/$s_!KvF2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02200042-809f-4cbb-bd65-b8d380fb08d0_806x359.png)
+  - [Example 1](https://i.redd.it/xkspqrriiqgg1.png)
+  - [Example 2](https://pbs.twimg.com/media/G_6xu4naMAABtEh?format=jpg&name=900x900)
+  - [Example 3](https://substackcdn.com/image/fetch/$s_!KvF2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02200042-809f-4cbb-bd65-b8d380fb08d0_806x359.png)
  - [Project Genie](https://www.youtube.com/watch?v=YxkGdX4WIBE&t=2s)
 
 ## 🛠️ Tools & Releases
