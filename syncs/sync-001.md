@@ -38,3 +38,5 @@
 ## 🔗 Links & Resources
 
 - https://x.com/bcherny/status/2017742741636321619?s=12&t=qDZ1ZcysBZTELeU-YCj3kg
+- Watch this video - https://www.youtube.com/watch?v=Z9UxjmNF7b0
+  - And specifically don't miss this part: https://youtu.be/Z9UxjmNF7b0?t=574 
