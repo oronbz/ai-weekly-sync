@@ -1,4 +1,4 @@
-# AI Weekly Sync
+# AI Weekly Sync Mobile Demand
 
 A local markdown-based webapp for managing weekly AI news syncs with your dev team.
 
