@@ -2,6 +2,8 @@
 
 **Date**: February 9, 2026
 
+**Recording**: https://drive.google.com/file/d/1Usoi48NpCQL3KX_9Ke-XDxK-RMhL_b3N/view
+
 ---
 
 ## 🔥 Highlights
